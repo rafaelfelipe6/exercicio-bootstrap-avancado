@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Prime</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <h1>Net Prime</h1>
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Entrar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/Harry-Potter-and-The-Deathly-Hallows-Part-2-Netflix.png" alt="Imagem Harry Potter" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Harry Potter está de volta</h5>
+                        <p>Relembre a épica saga do bruxo mais famoso.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/vingadores-guerra-infinita.jpg" alt="Imagem Vingadores Guerra Infita" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Relembre a Guerra Infinita</h5>
+                        <p>Aproveite o sucesso de Guardiões da galáxia Vol.3 e assista esse épico novamente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/aneis_de_poder_galadriel.jpg" alt="Imagem Aneis de Poder" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>A Jornada de Galadriel</h5>
+                        <p>Acompanhe a jornada de Galadriel em Aneis de Poder.</p>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <h2 class="mt-4">Favoritos dos Fãs</h2>
+            <p>Principais Filmes e séries desta semana</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <img width="100%" src="./images/capa-guardioes.jpg" alt="Capa Guardiões da Galáxia" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Guardiões da Galáxia Vol.3</h4>
+                            <p class="card-text">
+                                Após a perda de Gamora, Peter Quill ainda está chateado e deve reunir os Guardiões da Galáxia em uma missão para defender o universo e proteger Rocket.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <img width="100%" src="./images/Capa-D&D.jpg" alt="Capa Dungeons & Dragons" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Dungeons & Dragons: Honra Entre Rebeldes</h4>
+                            <p class="card-text">
+                                Um ladrão encantador e um grupo de aventureiros improváveis embarcam em uma jornada épica para recuperar uma relíquia perdida, mas as coisas saem perigosamente do controle quando eles se envolvem com as pessoas erradas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <img width="100%" src="./images/mario-bros.jpg" alt="Capa Super Mario Bros" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Super Mario Bros. - O Filme</h4>
+                            <p class="card-text">
+                                Um encanador chamado Mario viaja por um labirinto subterrâneo com seu irmão, Luigi, tentando salvar uma princesa capturada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <img width="100%" src="./images/homem-aranha-capa.jpg" alt="Capa Homem Aranha Através do Aranhaverso" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Homem Aranha - Através do Aranhaverso</h4>
+                            <p class="card-text">
+                                Miles Morales, o amigão da vizinhança Homem-Aranha, é transporado através do multiverso para unir forças com Gwen Stacy e um novo time de Pessoas-Aranha para enfrentar um vilão mais poderoso do que qualquer coisa que já tenham encontrado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <img width="100%" src="./images/Pequena-sereia-capa.jpg" alt="Capa pequena sereia" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">A Pequena Sereia</h4>
+                            <p class="card-text">
+                                A filha do rei Tritão, Ariel, se apaixona loucamente por um príncipe que salvou de um naufrágio. Ela decide ir procurá-lo em terra firme e pede ajuda à bruxa do mar, Úrsula.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <img width="100%" src="./images/Capa-Jhon-Wick.jpg" alt="Capa John Wick" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">John Wick 4: Baba Yaga</h4>
+                            <p class="card-text">
+                                Antes de recuperar sua liberdade, Wick deve enfrentar um novo inimigo com alianças poderosas em todo o mundo. Uma influência que transformará velhos amigos em inimigos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

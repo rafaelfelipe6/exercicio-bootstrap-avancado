@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-mode {
+    background-color: #181a1b;
+    color: #fff;
+}
+
+.dark-mode .card {
+    background-color: #181a1b;
+    color: #fff;
+}
+
+
+.navbar h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#carousel-exemplo img {
+    width: 100%;
+    background-color: #181a1b;
+}
+
+
+#carousel-exemplo {
+    background-color: #181a1b;
+    color: #fff;
+}
